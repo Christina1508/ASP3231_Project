@@ -1,1 +1,7 @@
-NGC_2547_sub/
+# Ignore contents of NGC_2547_sub
+NGC_2547_sub/*
+!NGC_2547_sub/.gitkeep
+
+# Ignore contents inside aligned_images subfolders
+aligned_images/*/*
+!aligned_images/*/.gitkeep
